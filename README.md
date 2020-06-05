@@ -1,4 +1,4 @@
-# perfil-gc
+# Client Perfil GC
 
 ## Para instalação do projeto, rodar os comandos;
 ```
