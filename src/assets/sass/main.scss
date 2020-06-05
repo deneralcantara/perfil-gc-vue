@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+.header-blue{
+    background: linear-gradient(180deg, rgba(73, 163, 253, 0.16) 0%, rgba(73, 163, 253, 0) 100%),
+    linear-gradient(90deg, #212335 17.54%, rgba(33, 35, 53, 0.64) 51.46%, #212335 82.67%), 
+    url('~@/assets/images/header-blue.png'), #212335;
+}
+.header-red{
+    background: linear-gradient(180deg, rgba(251, 75, 86, 0.08) 0%, rgba(251, 75, 86, 0) 100%),
+    linear-gradient(90deg, #212335 17.54%, rgba(33, 35, 53, 0.64) 51.46%, #212335 82.67%),
+    url('~@/assets/images/header-red.png'), #212335;
+}
+
+.border-avatar {
+    border: 2px solid !important;
+    border-color:#9CC00C !important;
+}
+
+.progress-bar-blue{
+    background: linear-gradient(90deg, #49A3FD 0%, #61B3FA 100%);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16), inset 0px 1px 0px rgba(255, 255, 255, 0.24);
+    border-radius: 16px;
+}
+.progress-bar-red{
+    background: linear-gradient(90deg, #FB4B56 0%, #FC6973 100%);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16), inset 0px 1px 0px rgba(255, 255, 255, 0.24);
+    border-radius: 16px;
+}
+
+.progress-teams{
+    background:#1C1D2C;
+    height:8px !important;
+}
+
+.progress{
+    background:#1C1D2C;
+    height:16px;
+}
+
+.border-blue{
+    border: 1px solid #49A3FD;
+    width:60px;
+}
+
+.border-red{
+    border: 1px solid #F23641;
+    width:60px;
+}
+
+.title{
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color:white;
+    text-transform: uppercase;
+}
+
+.div-camp{
+    color:white;
+    background: #282A3E;
+}
+
+.btn-green{
+    border:1px solid #9CC00C;
+    color:#9CC00C;
+    height:25px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.teams{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.matches{
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #FACF5A;
+}
+
+.matches_ranked_blue{
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #2196FD;
+}
+
+.matches_ranked_red{
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #F23641;
+}
+
+.wins{
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #9CC00C;
+}
+
+.losses{
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color:#FC6973;
+}
+
+.card-gc{
+    height: 92px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.second-line{
+    background: #212335;
+    box-shadow: inset 0px 4px 16px rgba(0, 0, 0, 0.16);
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
+    box-sizing: border-box;
+}
+
+.border-separate{
+    border-right: 1px solid rgba(255, 255, 255, 0.16);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+    padding-bottom: 30px;
+}
+
+.btn-lobby{
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    background: #FACF5A;
+}
+
+.btn-ranked-blue{
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    background: #2196FD;
+}
+
+.btn-ranked-red{
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    background: #F23641;
+}
+
+.card-height{
+    min-height:236px;
+    height:236px;
+}
+
+
+.third_content{
+    background: #212335;
+    box-shadow: inset 0px 4px 16px rgba(0, 0, 0, 0.16);
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+    padding-bottom:30px;
+}
+
+.btn-grey{
+    background: #383B51;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16), 0px 2px 4px rgba(0, 0, 0, 0.16), inset 0px 1px 0px rgba(255, 255, 255, 0.24);
+    border-radius: 2px;
+    height:40px;
+}
+
+.drop_menu{
+    background: #383B51;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-sizing: border-box;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.24), 0px 16px 32px rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+}
+
+.drop_item{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color:white;
+}
+
+.caret_drop{
+    margin-top:-26px;
+    margin-left:15px;
+    color: #383B51;
+    font-size:20px;
+}
+
+.btn-anti-cheat{
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color:white;
+    background: #383B51;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16), 0px 2px 4px rgba(0, 0, 0, 0.16), inset 0px 1px 0px rgba(255, 255, 255, 0.24);
+    border-radius: 2px;
+    height:40px;
+}
+
+.btn-anti-cheat:hover {
+    color:white;
+}
+
+.total_report_blue{
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #2196FD;
+}
+
+.total_report_red{
+    font-family: Teko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: #F23641;
+}
+
+.label_report_blue{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color:#2196FD;
+}
+
+.label_report_red{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color:#F23641;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
