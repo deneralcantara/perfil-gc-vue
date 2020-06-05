@@ -1,11 +1,11 @@
 # Client Perfil GC
 
-## Para instalação do projeto, rodar os comandos;
+## Para instalação do projeto, rodar o comando;
 ```
 npm install
 ```
 
-## Você deverá configurar o arquivo ENV.JS de acordo com seu IP e PORTA que a API está rodando;
+## Você deverá criar um arquivo chamado ENV.JS na raíz do projeto e configurá-lo de acordo com seu IP e PORTA que a API está rodando;
 ```
 HOST_API : "http://192.168.1.4:8000/api", // API URL
 ```
