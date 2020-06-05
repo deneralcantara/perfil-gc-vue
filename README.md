@@ -1,11 +1,11 @@
-# perfil-gc
+# Client Perfil GC
 
-## Para instalação do projeto, rodar os comandos;
+## Para instalação do projeto, rodar o comando;
 ```
 npm install
 ```
 
-## Você deverá configurar o arquivo env.js de acordo com seu IP e PORTA que a API está rodando;
+## Copie o arquivo env.example.js e crie o arquivo env.js na raíz do projeto e configure-o de acordo com seu IP e PORTA que a API está rodando;
 ```
 HOST_API : "http://192.168.1.4:8000/api", // API URL
 ```
@@ -15,13 +15,5 @@ HOST_API : "http://192.168.1.4:8000/api", // API URL
 npm run serve
 ```
 
-### Compilar e preparar para produção
-```
-npm run build
-```
+### OBS - Na parte de Avatar, caso você não tenha subido nenhum, ele irá priorizar os dados mockados; Caso você tenha subido algum avatar, ele irá proirizar o que está no banco de dados, e irá ignorar os dados mockados;
 
-### OBS - Na parte de Avatar, ele irá priorizar os dados mockados; Caso você tenha subido algum avatar, ele irá proirizar o
-### que está no banco de dados, e irá ignorar os dados mockados;
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
