@@ -20,8 +20,4 @@ npm run serve
 npm run build
 ```
 
-### OBS - Na parte de Avatar, ele irá priorizar os dados mockados; Caso você tenha subido algum avatar, ele irá proirizar o
-### que está no banco de dados, e irá ignorar os dados mockados;
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### OBS - Na parte de Avatar, ele irá priorizar os dados mockados; Caso você tenha subido algum avatar, ele irá proirizar o que está no banco de dados, e irá ignorar os dados mockados;
