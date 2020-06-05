@@ -5,7 +5,7 @@
 npm install
 ```
 
-## Copie o arquivo env.example.js e crie o arquivo env.js na raíz do projeto e configure-o de acordo com seu IP e PORTA que a API está rodando;
+## No arquivo env.js na raíz do projeto, configure-o de acordo com seu IP e PORTA que a API está rodando;
 ```
 HOST_API : "http://192.168.1.4:8000/api", // API URL
 ```
