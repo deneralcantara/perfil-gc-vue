@@ -5,7 +5,7 @@
 npm install
 ```
 
-## Você deverá configurar o arquivo env.js de acordo com seu IP e PORTA que a API está rodando;
+## Você deverá configurar o arquivo ENV.JS de acordo com seu IP e PORTA que a API está rodando;
 ```
 HOST_API : "http://192.168.1.4:8000/api", // API URL
 ```
