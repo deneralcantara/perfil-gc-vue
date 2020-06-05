@@ -15,9 +15,5 @@ HOST_API : "http://192.168.1.4:8000/api", // API URL
 npm run serve
 ```
 
-### Compilar e preparar para produção
-```
-npm run build
-```
-
 ### OBS - Na parte de Avatar, ele irá priorizar os dados mockados; Caso você tenha subido algum avatar, ele irá proirizar o que está no banco de dados, e irá ignorar os dados mockados;
+
